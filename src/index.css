@@ -1,0 +1,52 @@
+.slider{
+  background-color: black;
+}
+.container1 {
+  width: 80%;
+    height: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item1 {
+  width: 333px;
+  height: 333px;
+  overflow: hidden;
+  float: left;
+  border: 1px solid black;
+}
+
+.item2 {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  border: 1px solid black;
+}
+.item3 {
+  width: 600px;
+  height: 450px;
+  overflow: hidden;
+  float: left;
+  border: 1px solid black;
+}
+.item4 {
+  width: 600px;
+  height: 450px;
+  overflow: hidden;
+  float: left;
+  border: 1px solid black;
+}
+img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color : white;
+  transform: translate(-50%, -50%);
+}
